@@ -3,9 +3,6 @@ from langchain.prompts import PromptTemplate
 from langchain.llms import CTransformers
 import requests
 from PIL import Image
-
-from docx import Document
-from docx.shared import Inches
 import io
 ## Function To get response from LLAma 2 model
 
