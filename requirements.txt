@@ -1,6 +1,6 @@
 sentence-transformers
 uvicorn
-ctransformers
+CTransformers
 langchain
 python-box
 streamlit
