@@ -9,7 +9,7 @@ import io
 def getLLamaresponse(input_text,no_words,blog_style):
 
     ### LLama2 model
-    llm=CTransformers(model=r'C:\Users\pooja\OneDrive\Desktop\Blog Generation\llama-2-7b-chat.ggmlv3.q2_K.bin',
+    llm=CTransformers(model='C:\Users\pooja\OneDrive\Desktop\Blog Generation\llama-2-7b-chat.ggmlv3.q2_K.bin',
                   model_type='llama',
                   config={'max_new_tokens':256,
                           'temperature':0.01})
